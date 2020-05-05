@@ -19,7 +19,7 @@ public class Guess
     }
     else if(response == "higher")
     {
-      HighLow(RandNumb, max);
+      HighLow(RandNumb+1, max);
     }
     else{
        Console.WriteLine("Enter something valid dummy");
